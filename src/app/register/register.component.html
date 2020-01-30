@@ -1,0 +1,43 @@
+<div align="center" class="llog">
+    <div class="example-container">
+      <h1 class="pad" style="color:black;font-size: 300%; ">SignUp</h1>
+      <mat-form-field class="pad">
+        <input matInput placeholder="First Name">
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input matInput placeholder="Last Name">
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input matInput placeholder="UserName" required>
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input matInput placeholder="Enter your email" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input type="password" matInput placeholder="Password" required>
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input type="password" matInput placeholder="Confirm Password" required >
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <mat-select placeholder="Institute">
+          <mat-option>None</mat-option>
+          <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <mat-select placeholder="Country">
+          <mat-option>None</mat-option>
+          <mat-option *ngFor="let country of countries" [value]="state">{{country}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="pad">
+        <input matInput placeholder="CodeForces handle" required>
+      </mat-form-field>
+    </div>
+    <div class="pad">
+      <button mat-raised-button class="btns" routerLink="/home">Sign Up</button>
+    </div>
+  </div>
+  

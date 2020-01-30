@@ -1,0 +1,58 @@
+
+.card
+{
+    background-color: lightgray;
+    
+}
+.cards img{
+    height: 25vw;
+    width: 25vw;
+}
+.ccard{
+    box-shadow:.05vw .05vw 1vw .05vw black;
+    width: 100%;
+    height: 100%;
+     
+}
+.title
+{
+    font-size: 20%;
+    color:black;
+    position:relative;
+    padding-top: 1%;
+    padding-left: 40%;
+    font-variant: small-caps;
+}
+.example-card {
+    max-width: 20vw;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .btnr{
+      
+      background-color: rgb(8, 24, 54); 
+      font-size: 1vw;
+      width: 100%;
+      text-decoration: none;
+      
+      
+  }
+  .btnr:hover
+  {
+      
+      text-decoration: none;
+  }
+  mat-card-title{
+      font-variant: small-caps;
+  }
+
+  .summary
+  {
+      padding: 10vw 10vw 10vw 10vw;
+      border: .1vw solid black;
+      font-size: 1vw;
+     
+      
+  }

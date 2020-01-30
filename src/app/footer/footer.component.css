@@ -1,0 +1,36 @@
+.footerhead
+{
+    padding-left: 11vw;
+}
+.icons img
+{
+    width: 5vw;
+    height: 5vw;
+    padding-left: 1vw;
+}
+.list-left li 
+{
+    padding-bottom: 1vw;
+    padding-left: 10vw;
+}
+li button{
+border: none;
+background-color: transparent;
+}
+li button:hover
+{
+    cursor: pointer;
+    border-bottom: 0.2vw solid black;
+}
+.list-right li 
+{
+    padding-bottom: 1vw;
+    padding-left: 10vw;
+}
+.ftr{
+    position:relative;
+    padding-bottom:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+}

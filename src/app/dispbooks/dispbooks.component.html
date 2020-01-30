@@ -1,0 +1,31 @@
+<div class="row title" >
+    <h1 >{{gen}}</h1>
+    </div>
+<div *ngFor="let book of booksList">
+    <div *ngIf="book.genre==gen">
+            <div class="row">
+                    <h1></h1>
+                    </div>
+                    <div class="row" style="padding-left:5vw;">
+                          <div class="col-sm-2 card">
+                          <mat-card class="example-card ccard">
+                            <mat-card-header>
+                              <mat-card-title align="center">1984</mat-card-title>
+                              <mat-card-subtitle align="center">George Orwel</mat-card-subtitle>
+                            </mat-card-header>
+                            <img mat-card-image src={{book.id}} alt="">
+                            <mat-card-content>
+                              <span>Description of the book</span>
+                            </mat-card-content>
+                            <mat-card-actions class="btnr" align="center">
+                              <a href={{book.path}} style="color: antiquewhite; text-decoration: none;" align="center">READ</a>
+                            </mat-card-actions>
+                          </mat-card>
+                        </div> 
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-8 summary" >{{book.summary}}</div>
+                  </div>
+                  <br><br>
+        
+    </div>
+</div>

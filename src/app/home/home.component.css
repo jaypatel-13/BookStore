@@ -1,0 +1,59 @@
+.image
+{
+    height: 41.7vw;
+}
+.bground
+{
+    background-image: url("../../assets/homebg.jpg");
+    padding-left: 20%;
+    padding-right:20%;
+    padding-bottom: 1%;
+}
+.slideshow
+{
+    width:100%;
+
+    padding-bottom: 5%;
+    padding-top:5%;
+
+}
+
+.cards
+{
+    background-color: lightgray;
+}
+.cards img{
+    height: 25vw;
+    width: 20vw;
+}
+.title
+{
+    font-size: 20%;
+    color:black;
+    position:relative;
+    padding-top: 1%;
+}
+.example-card {
+    max-width: 20vw;    
+  }
+
+  .ccard{
+    padding-right: 5vw;
+    box-shadow:.1vw .1vw 1vw .1vw rgb(0, 0, 0);
+  }
+  .ccard:hover{
+    box-shadow:.08vw .08vw 1vw .08vw rgb(12, 12, 99);
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  mat-card-title{
+      font-variant: small-caps;
+  }
+  .llink{
+      font-size: 1vw;
+      background-color: black;
+      color: white;
+  }
+  

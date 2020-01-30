@@ -1,0 +1,22 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-top: 3%;
+  }
+  .pad{
+    padding-top: 3%;
+  }
+  .example-container > * {
+    width: 100%;
+  }
+  .btns{
+    background-color: black;
+    color: white;
+    width: 30%;
+  }
+  .llog{
+    background-image: url("/assets/loginbg.jpg");
+    background-repeat: repeat-x
+
+  }
